@@ -181,6 +181,13 @@ function handleFireButton() {
     
 }
 
+function ping() {
+     var ping = document.getElementById("ping").play();
+}
+
+setInterval(ping, 30000);
+
+
 window.onload = init;
 
 function handleKeyPress(e) {
